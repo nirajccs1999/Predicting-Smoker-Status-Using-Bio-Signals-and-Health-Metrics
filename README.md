@@ -28,9 +28,42 @@ The dataset used in this project consists of various health-related features tha
 - **Class 1**: Smoking
 
 ### Key Features:
-- **Height**: Height of the individual (in cm).
-- **Hemoglobin**: Hemoglobin levels in the blood.
-- **Other Health Parameters**: Various health-related features that may influence smoking behavior.
+#### Data Description  
+
+### Bio-Signals and Health Parameters  
+In this project, we are using various bio-signals and health parameters to predict smoker status. Here's a breakdown of what we mean by **Bio-Signals** and **Health Parameters**:  
+
+#### Bio-Signals  
+Bio-signals are physiological readings or markers that reflect the state of the body. They provide insights into an individual's health condition. In our dataset, the following columns can be considered bio-signals:  
+
+- **Eyesight (left):** A measure of visual ability in the left eye.  
+- **Eyesight (right):** A measure of visual ability in the right eye.  
+- **Hearing (left):** A measure of hearing ability in the left ear.  
+- **Hearing (right):** A measure of hearing ability in the right ear.  
+- **Hemoglobin:** A protein found in red blood cells that carries oxygen. Abnormal levels may indicate certain health conditions.  
+- **Serum Creatinine:** A marker used to evaluate kidney function.  
+- **AST (Aspartate Aminotransferase):** An enzyme related to liver function.  
+- **ALT (Alanine Aminotransferase):** Another enzyme related to liver function.  
+- **GTP (Gamma-glutamyl Transferase):** An enzyme often linked with liver health.  
+
+#### Health Parameters  
+Health parameters are broader metrics that relate to an individual’s overall health, lifestyle, or risk factors. These indicators help gauge an individual's well-being and the risk factors associated with diseases or conditions. In the dataset, these columns represent health parameters:  
+
+- **Age:** A general demographic parameter that provides context to the individual's health.  
+- **Height (cm):** A general health indicator that relates to body size.  
+- **Weight (kg):** Another general health indicator related to body weight.  
+- **Waist (cm):** A measurement indicating body fat distribution, often used as an indicator of cardiovascular risk.  
+- **Systolic:** The systolic reading in blood pressure, which measures the force of blood against artery walls.  
+- **Relaxation:** A measure of stress level or relaxation, which can affect overall health.  
+- **Fasting Blood Sugar:** Blood sugar levels after fasting, useful for identifying diabetes or pre-diabetes conditions.  
+- **Cholesterol:** A key parameter for heart health, higher levels can be a risk factor for cardiovascular diseases.  
+- **Triglyceride:** A type of fat in the blood, high levels are also linked with heart disease.  
+- **HDL (High-Density Lipoprotein):** Often called "good cholesterol," higher levels can protect against heart disease.  
+- **LDL (Low-Density Lipoprotein):** Known as "bad cholesterol," higher levels increase the risk of heart disease.  
+- **Urine Protein:** Indicates kidney function or potential kidney damage.  
+- **Dental Caries:** An indicator of oral health, which can impact overall health if untreated.  
+
+
 
 ## Algorithms Used
 
